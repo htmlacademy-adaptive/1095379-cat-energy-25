@@ -33,14 +33,16 @@
       </div>
     </header>
     <main class="main-form">
-      <div class="wrapper">
+      <section class="title">
         <h1>Подбор программы</h1>
+      </section>
+      <div class="wrapper">
         <p>
           Заполните анкету, и мы подберем программу питания для Вашего кота
         </p>
         <form class="form" method="get" action="https://echo.htmlacademy.ru">
           <fieldset class="form__name user-name">
-            <h2 class="visually-hidden">Информация о питомце</h2>
+            <legend> class="visually-hidden">Информация о питомце</legend>
             <ul class="user-name__list">
               <li class="user-name__item">
                 <label class="user-name__list-label" for="name">Имя:*</label>
@@ -57,7 +59,7 @@
             </ul>
           </fieldset>
           <fieldset class="form__program program">
-            <h2 class="visually-hidden">Выбор программы</h2>
+            <legend class="visually-hidden">Выбор программы</legend>
             <ul class="program__list">
               <li class="program__item">
                   <input class="program__list-input visually-hidden" id="form-slim" type="radio" value="slim" name="program-effect" checked>
@@ -74,8 +76,8 @@
             </ul>
           </fieldset>
           <fieldset class="form__contact contact">
-            <h2>Контактные данные
-            (владельца кота)</h2>
+            <legend>Контактные данные
+            (владельца кота)</legend>
             <ul class="contact__list">
               <li class="contact__item contact__item--email">
                 <label class="contact__list-label contact__list-label--email" for="e-mail">E-mail:*</label>
@@ -88,14 +90,14 @@
             </ul>
           </fieldset>
           <fieldset class="form__comment comment">
-            <h2>Комментарий</h2>
+            <legend>Комментарий</legend>
             <div class="comment">
               <label class="comment__label visually-hidden" for="text">Повадки кота</label>
               <textarea class="comment__input" id="text" name="text" placeholder="Расскажите обо всех повадках кота" inputmode="text"></textarea>
             </div>
           </fieldset>
           <fieldset class="form__additionally additionally">
-            <h2>Дополнительно</h2>
+            <legend>Дополнительно</legend>
             <ul class="additionally__list">
               <li class="additionally__item">
                   <input class="additionally__list-input visually-hidden" id="form-sweetener" type="checkbox" name="sweetener" checked>
