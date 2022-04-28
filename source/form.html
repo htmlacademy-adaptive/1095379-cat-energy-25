@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Кэт энерджи</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body class="page__body">
     <header class="main-header">
@@ -33,7 +34,7 @@
       </div>
     </header>
     <main class="main-form">
-      <section class="title">
+      <section class="title wrapper">
         <h1>Подбор программы</h1>
       </section>
       <div class="wrapper">
@@ -42,7 +43,7 @@
         </p>
         <form class="form" method="get" action="https://echo.htmlacademy.ru">
           <fieldset class="form__name user-name">
-            <legend> class="visually-hidden">Информация о питомце</legend>
+            <legend class="visually-hidden">Информация о питомце</legend>
             <ul class="user-name__list">
               <li class="user-name__item">
                 <label class="user-name__list-label" for="name">Имя:*</label>
@@ -125,7 +126,7 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="main-footer__top">
+      <div class="main-footer__top main-footer__top--color">
         <div class="wrapper">
           <h2>Приглашаем к сотрудничеству дилеров!</h2>
           <p>ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
@@ -150,7 +151,7 @@
               <a class="social__link social__link--telegram" href="https://t.me/htmlacademy"><span class="visually-hidden">Мы в Телеграме</span></a>
             </li>
           </ul>
-          <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <a class="main-footer__bottom-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </div>
       </div>
     </footer>
