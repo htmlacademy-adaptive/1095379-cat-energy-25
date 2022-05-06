@@ -1,10 +1,27 @@
 .main-container__products {
   margin: 0 auto;
   width: 320px;
-  height: 302px;
+  min-height: 440px;
   background-image: url("../img/cat-mobile.png");
+  background-color: #008000;
+  background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%, cover;
+  background-size: cover;
+}
+
+@media (min-width: $tablet-width) {
+  .main-container__products {
+    width: 709px;
+    min-height: 609px;
+    background-image: none;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-container__products {
+    min-height: 696px;
+  }
 }
 
 .main-container__products h1 {
@@ -16,6 +33,15 @@
   color: #ffffff;
 }
 
+@media (min-width: $tablet-width) {
+  .main-container__products h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    color: #000000;
+  }
+}
+
 .main-container__products p {
   margin: 0;
   padding: 0;
@@ -24,4 +50,13 @@
   font-weight: 400;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .main-container__products p {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #000000;
+  }
 }
