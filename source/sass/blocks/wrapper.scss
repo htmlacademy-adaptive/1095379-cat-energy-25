@@ -2,12 +2,12 @@
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
-  width: 320px;
+  max-width: 320px;
 }
 
 @media (min-width: $tablet-width) {
   .wrapper {
-    width: 768px;
+    max-width: 768px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -15,7 +15,7 @@
 
 @media (min-width: $desktop-width) {
   .wrapper {
-    width: 1200px;
+    max-width: 1200px;
     padding-left: 110px;
     padding-right: 110px;
   }

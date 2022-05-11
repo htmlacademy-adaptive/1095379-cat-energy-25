@@ -11,7 +11,7 @@
 
 @media (min-width: $tablet-width) {
   .main-container__products {
-    width: 709px;
+    width: 768px;
     min-height: 609px;
     background-image: none;
     background-color: #ffffff;
@@ -20,6 +20,7 @@
 
 @media (min-width: $desktop-width) {
   .main-container__products {
+    width: 1200px;
     min-height: 696px;
   }
 }
