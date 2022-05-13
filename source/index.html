@@ -2,6 +2,7 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Кэт энерджи</title>
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -82,21 +83,25 @@
         <div class="wrapper">
           <h2>Живой пример</h2>
           <p>Борис сбросил 5кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
-          <ul class="result__list">
-            <li class="result__item">
-              <span>5 кг</span>
-              <p class="result__intro">снижение веса</p>
-            </li>
-            <li class="result__item">
-              <span>60 дней</span>
-              <p class="result__intro">затрачено времени</p>
-            </li>
-          </ul>
-          <p class="result__price">Затраты на питание:<span>15 000 руб</span></p>
-          <img src="img/cat-before-mobile1.png" width="280" height="232" alt="Изображение кота до похудения">
-          <div class="result__controls controls">
-            <button class="controls__toggle" type="button">Было</button>
-            <button class="controls__toggle" type="button">Стало</button>
+          <div class="result__wrapper">
+            <ul class="result__list">
+              <li class="result__item">
+                <span>5 кг</span>
+                <p class="result__intro">снижение веса</p>
+              </li>
+              <li class="result__item">
+                <span>60 дней</span>
+                <p class="result__intro">затрачено времени</p>
+              </li>
+              <li class="result__item">
+                <p class="result__price">Затраты на питание:<span>15 000 руб</span></p>
+              </li>
+            </ul>
+            <div class="result__controls controls">
+              <img src="img/cat-before-mobile1.png" width="280" height="232" alt="Изображение кота до похудения">
+              <button class="controls__toggle" type="button">Было</button>
+              <button class="controls__toggle" type="button">Стало</button>
+            </div>
           </div>
         </div>
       </section>

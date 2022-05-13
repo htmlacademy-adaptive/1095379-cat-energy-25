@@ -3,3 +3,24 @@
   padding: 0;
   list-style: none;
 }
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    width: 440px;
+  }
+
+  .main-nav .menu-toggle {
+    display: none;
+  }
+
+  .main-nav .site-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav {
+    width: 478px;
+  }
+}
