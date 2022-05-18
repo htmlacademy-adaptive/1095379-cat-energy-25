@@ -1,3 +1,20 @@
+@media (min-width: $desktop-width) {
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .form__cat-data {
+    display: flex;
+  }
+}
+
+.form__wrapper {
+  min-height: 120px;
+}
+
 .form__button {
   border: none;
   padding: 0;
@@ -9,10 +26,23 @@
   background-color: #68b738;
 }
 
+@media (min-width: $tablet-width) {
+  .form__button {
+    font-size: 20px;
+  }
+}
+
 .form__wrapper span {
   font-family: "Arial", sans-serif;
   font-size: 14px;
   line-height: 16px;
   font-weight: 400;
   color: #000000;
+}
+
+@media (min-width: $tablet-width) {
+  .form__wrapper span {
+    font-size: 16px;
+    line-height: 16px;
+  }
 }

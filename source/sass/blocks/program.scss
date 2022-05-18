@@ -2,6 +2,14 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  min-height: 157px;
+}
+
+@media (min-width: $desktop-width) {
+  .program__list {
+    min-height: 297px;
+    width: 505px;
+  }
 }
 
 .program__list-label {
@@ -10,4 +18,11 @@
   font-weight: 400;
   color: #222222;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet-width) {
+  .program__list-label {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
